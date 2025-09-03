@@ -61,8 +61,14 @@ The Personal Finance Management System is an application built with Java Swing o
 2. Open the project in Apache NetBeans.
 3. Set up the MySQL database.
    - Import the schema from the `database_setup` folder.
-4. Update database credentials in the project if required.
-4. Build and run the project.
+4. Add the required libraries (JAR files) to your project:
+   - **MySQL Connector (JDBC Driver)**
+   - **JCalendar**
+   - **XChart**
+   - **AbsoluteLayout**
+   > In NetBeans: Right-click on *Libraries* → *Add JAR/Folder* → select the `.jar` files.
+5. Update database credentials in the project if required.
+6. Build and run the project.
 
 ## Usage
 1. Sign up for an account or log in if you already have one.
